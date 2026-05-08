@@ -39,7 +39,7 @@ Le projet utilise :
 ## Fonctionnalités prévues
 
 - Déplacement du snake
-- Gestion de la nourriture
+- Gestion des pommes
 - Score
 - Collision avec les murs
 - Game Over
