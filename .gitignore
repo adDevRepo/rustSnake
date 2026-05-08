@@ -1,0 +1,11 @@
+# Rust build files
+/target
+
+# RustRover / IntelliJ
+.idea
+
+# macOS
+.DS_Store
+
+# Environment files
+.env
