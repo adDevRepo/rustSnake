@@ -1,4 +1,3 @@
-use macroquad::miniquad::native::apple::frameworks::sel;
 use macroquad::prelude::*;
 
 use crate::snake::Position;
