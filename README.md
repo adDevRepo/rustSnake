@@ -49,5 +49,10 @@ Le projet utilise :
 
 ```text
 src/
+ └── apple.rs
+ └── game.rs
+ └── direction.rs
  └── main.rs
+ └── snake.rs
+ 
 ```
