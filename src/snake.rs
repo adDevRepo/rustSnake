@@ -10,8 +10,8 @@ use crate::direction::Direction;
 pub struct Position {
 
     // entier 32 bits
-    x: i32,
-    y: i32,
+    pub(crate) x: i32,
+    pub(crate) y: i32,
 }
 
 //génération du snake
@@ -84,6 +84,11 @@ impl Snake {
 
         }
 
+    }
+
+    pub fn grow(&mut self) {
+        let size = self.body.last().unwrap();
+        self.body.push(*size);
     }
 
 }
